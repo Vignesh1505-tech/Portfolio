@@ -1,0 +1,13 @@
+.flipImage {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    perspective: 1000px;
+    transition: transform 2s;
+  }
+  
+  .flipImage.flipped {
+    transform: rotateY(180deg);
+  }
+  
